@@ -16,3 +16,9 @@ This Project aims to identify the emotion of a person from the recorded speech s
 3. Anaconda : We are using Anaconda Environment for the ease of setting things up and keeping them updated. Also some conda custom libraries are faster than usual python stock libraries hence optimisation helps in speed.
 4. Keras : A Machine Learning Library based on Tensorflow
 5. Some other things : Jupyter Notebook, Visual Studio Code, Numpy, Pandas, SciPy, etc.
+
+## References
+
+1. Towards Data Science Article : <https://towardsdatascience.com/speech-emotion-recognition-with-convolution-neural-network-1e6bb7130ce3>
+2. Github - Towards Data Science Article : <https://github.com/rezachu/emotion_recognition_cnn>
+3. Original Owner Reference Github : <https://github.com/MITESHPUTHRANNEU/Speech-Emotion-Analyzer>

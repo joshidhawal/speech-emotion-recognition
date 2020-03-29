@@ -17,6 +17,19 @@ This Project aims to identify the emotion of a person from the recorded speech s
 4. Keras : A Machine Learning Library based on Tensorflow
 5. Some other things : Jupyter Notebook, Visual Studio Code, Numpy, Pandas, SciPy, etc.
 
+## Methodology
+
+1. Observe the Data Audio Waveform and Spectogram along with Mel Spectogram to find out what is important to be extracted as features.
+2. Using the Scripts extract the MFCC Features saving each feature set for each audio in a csv file.
+3. Combine all the Individual Audio Feature Sets to make a combined Dataset.
+4. Clean the Dataset post the merge by using any of the Data Science Methods.
+5. Create the Datasets(Test, Train, Validate, etc.) to feed into the model
+6. Building the Model
+7. Training the Model on Training Data
+8. Checking Accuracy using the Test Data
+9. Predicting Emotion
+10. Creating UI to Give Audio Input and Recieve a Prediction
+
 ## References
 
 1. Towards Data Science Article : <https://towardsdatascience.com/speech-emotion-recognition-with-convolution-neural-network-1e6bb7130ce3>
